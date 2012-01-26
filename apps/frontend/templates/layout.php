@@ -22,6 +22,7 @@
                     <li><a href="<?php echo url_for('main/regulamin')?>">Regulamin</a></li>
                     <li><a href="<?php echo url_for('statistics/index')?>">Statystyka</a></li>
                     <li><a href="<?php echo url_for('main/show')?>">Kontakt</a></li>
+                    <li><a href="<?php echo url_for('main/error500') ?>">error 500</a></li>
                 </ul>
             </nav>     
             <div class="content">

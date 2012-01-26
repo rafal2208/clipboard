@@ -20,4 +20,15 @@ class errorActions extends sfActions
   {
     
   }
+  
+    /**
+  * Executes index action
+  *
+  * @param sfRequest $request A request object
+  */
+  public function executeError500(sfWebRequest $request)
+  { 
+      throw new Exception('error error 500 !!!');      
+  }
+  
 }
